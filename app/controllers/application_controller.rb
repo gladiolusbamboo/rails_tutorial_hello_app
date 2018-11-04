@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  # テストコード
   def hello
     render html: "¡Hola, mundo!"
   end
